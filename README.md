@@ -3,7 +3,7 @@
 Application Level file sharing protocol with support for upload/download and indexed searching.
 
 ```
-''How to Run the code''
+## How to Run the code
 1.Copy the code onto two different folders of same machine.
 2.compile both of them  ( gcc fileshare.c -o client), and run it (./client)
 3.The program asks you to enter the port no. to which it has to listen to.
@@ -13,7 +13,7 @@ Application Level file sharing protocol with support for upload/download and ind
 ```
 
 ```
-=== Proper syntax of commands ===
+__ Proper syntax of commands __
 1.IndexGet shortlist <start­time­stamp> <end­time­stamp>
 2.IndexGet longlist
 3.IndexGet regex "expression"
